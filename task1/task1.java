@@ -79,12 +79,10 @@ public class task1 {
     public static double findAvg(int[] array) {
 
         double result = 0;
-
         for (int i = 0; i < array.length; i++) {
             result += array[i];
         }
         result = result/ array.length;
         return result;
-
     }
 }
